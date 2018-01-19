@@ -1,12 +1,3 @@
-// Import and configure the Firebase SDK
-// These scripts are made available when the app is served or deployed on Firebase Hosting
-// If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup
-// importScripts('/__/firebase/4.8.1/firebase-app.js');
-// importScripts('/__/firebase/4.8.1/firebase-messaging.js');
-// importScripts('/__/firebase/init.js');
-
-// const messaging = firebase.messaging();
-
 /**
  * Here is is the code snippet to initialize Firebase Messaging in the Service
  * Worker when your app is not hosted on Firebase Hosting.
@@ -27,8 +18,6 @@ firebase.initializeApp({
 // messages.
 const messaging = firebase.messaging();
 // [END initialize_firebase_in_sw]
-
-
 
 // If you would like to customize notifications that are received in the
 // background (Web app is closed or not in browser focus) then you should
