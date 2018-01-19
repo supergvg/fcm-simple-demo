@@ -63,7 +63,19 @@
 	<!-- If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
 	<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-messaging.js"></script>
-	<script src="/__/firebase/init.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyB-QFje41fVoG0PkUiFcoHRPejLp7n_-e8",
+			authDomain: "api-project-843183600847.firebaseapp.com",
+			databaseURL: "https://api-project-843183600847.firebaseio.com",
+			projectId: "api-project-843183600847",
+			storageBucket: "api-project-843183600847.appspot.com",
+			messagingSenderId: "843183600847"
+		};
+		firebase.initializeApp(config);
+	</script>
 
 	<script>
 		// [START get_messaging_object]
