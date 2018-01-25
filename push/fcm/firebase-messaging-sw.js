@@ -14,8 +14,7 @@ firebase.initializeApp({
 	'messagingSenderId': '843183600847'
 });
 
-// Retrieve an instance of Firebase Messaging so that it can handle background
-// messages.
+// Retrieve an instance of Firebase Messaging so that it can handle background messages.
 const messaging = firebase.messaging();
 // [END initialize_firebase_in_sw]
 
@@ -32,7 +31,6 @@ messaging.setBackgroundMessageHandler(function (payload) {
 		icon: '/firebase-logo.png'
 	};
 
-	return self.registration.showNotification(notificationTitle,
-		notificationOptions);
+	return self.registration.showNotification(notificationTitle, notificationOptions);
 });
 // [END background_handler]
