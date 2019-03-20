@@ -1,20 +1,20 @@
 {
   "configVersion": 1,
-  "timestamp": 1553098160726,
-  "index": "/index.html",
+  "timestamp": 1553098461658,
+  "index": "geo/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/es2015-polyfills.c5dd28b362270c767b34.js",
-        "/favicon.ico",
-        "/index.html",
-        "/main.9dcb377abfa5804963e6.js",
-        "/polyfills.8bbb231b43165d65d357.js",
-        "/runtime.26209474bfa8dc87a77c.js",
-        "/styles.3ff695c00d717f2d2a11.css"
+        "geo/es2015-polyfills.c5dd28b362270c767b34.js",
+        "geo/favicon.ico",
+        "geo/index.html",
+        "geo/main.9dcb377abfa5804963e6.js",
+        "geo/polyfills.8bbb231b43165d65d357.js",
+        "geo/runtime.26209474bfa8dc87a77c.js",
+        "geo/styles.3ff695c00d717f2d2a11.css"
       ],
       "patterns": []
     },
@@ -23,35 +23,35 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "geo/assets/icons/icon-128x128.png",
+        "geo/assets/icons/icon-144x144.png",
+        "geo/assets/icons/icon-152x152.png",
+        "geo/assets/icons/icon-192x192.png",
+        "geo/assets/icons/icon-384x384.png",
+        "geo/assets/icons/icon-512x512.png",
+        "geo/assets/icons/icon-72x72.png",
+        "geo/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/es2015-polyfills.c5dd28b362270c767b34.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
-    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "0f1cf7372b147af9bf544844f69f24ed5731c7a7",
-    "/main.9dcb377abfa5804963e6.js": "f596a806a8d3187acde1365fa97b4284a255ff60",
-    "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
-    "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "geo/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "geo/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "geo/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "geo/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "geo/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "geo/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "geo/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "geo/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "geo/es2015-polyfills.c5dd28b362270c767b34.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
+    "geo/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "geo/index.html": "2541fbbb55e62b3e74391345025b5bef64022109",
+    "geo/main.9dcb377abfa5804963e6.js": "f596a806a8d3187acde1365fa97b4284a255ff60",
+    "geo/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
+    "geo/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "geo/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
